@@ -5,7 +5,7 @@ const Links = () => {
     <>
       <div>
         <h1>
-          <Link to={"/"}>Mohamad Taha</Link>
+          <Link to={""}>Mohamad Taha</Link>
         </h1>
         <NavLink
           className={({ isActive }) =>
