@@ -27,14 +27,14 @@
 
   a {
     font-weight: 600;
-    font-size: 24px;
     text-decoration: none;
     display: flex;
     justify-content: space-between;
+    font-size: 24px;
     width: 100%;
 
-    img {
-      width: 18px;
+    span {
+      width: 90%;
     }
   }
 
