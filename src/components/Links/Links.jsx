@@ -5,13 +5,13 @@ const Links = () => {
     <>
       <div>
         <h1>
-          <Link to={""}>Mohamad Taha</Link>
+          <Link to={"/home"}>Mohamad Taha</Link>
         </h1>
         <NavLink
           className={({ isActive }) =>
             isActive ? "active navLinks" : "navLinks"
           }
-          to={"/"}
+          to={"/home"}
         >
           Home
         </NavLink>
