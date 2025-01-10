@@ -1,0 +1,39 @@
+.sidebar {
+  padding: 23px 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.366);
+  transition: 300ms;
+  transform: translateX(-100%);
+  gap: 30px;
+
+  h1 {
+    font-size: 20px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  a {
+    text-decoration: none;
+    transition: 200ms;
+  }
+
+  button {
+    align-self: flex-end;
+    background-color: transparent;
+    border: none;
+  }
+}
+.showSidebar {
+  transform: translateX(0);
+}
