@@ -1,20 +1,19 @@
 .hero {
-  margin: 100px 0;
+  margin: 120px 0;
   display: flex;
   flex-direction: column;
+  gap: 50px;
   align-items: center;
   text-align: center;
 
   h1 {
     font-size: 48px;
-    margin-bottom: 24px;
   }
 
   p {
-    width: 740px;
+    width: 50%;
     color: #53565c;
     font-size: 20px;
-    margin-bottom: 40px;
   }
 
   form {
