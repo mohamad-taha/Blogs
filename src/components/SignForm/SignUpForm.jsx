@@ -28,7 +28,7 @@ const SignForm = (props) => {
             helperText="Enter your Password"
             name="password"
           />
-          <button className="primaryBtn" type="submit">
+          <button aria-label="sign up" className="primaryBtn" type="submit">
             {props.btn}
           </button>
           <Link to={props.to}>{props.link}</Link>

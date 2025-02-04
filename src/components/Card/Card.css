@@ -16,8 +16,12 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  width: 387.33px;
+  width: 350px;
   gap: 20px;
+
+  img {
+    width: 100%;
+  }
 
   small {
     font-size: 14px;
@@ -47,7 +51,7 @@
   .cardsContainer h1 {
     text-align: center;
   }
-  
+
   .card {
     width: 100%;
 

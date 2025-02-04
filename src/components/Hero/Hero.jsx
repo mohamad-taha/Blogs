@@ -15,7 +15,9 @@ const Hero = () => {
             type="email"
             placeholder="Enter your email"
           />
-          <button className="primaryBtn">Subscribe</button>
+          <button aria-label="subscribe" className="primaryBtn">
+            Subscribe
+          </button>
         </form>
       </div>
     </div>

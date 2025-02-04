@@ -18,7 +18,10 @@ const Navbar = () => {
     <>
       <nav>
         <Links />
-        <button onClick={() => toggleSidebar(setShowSidebar)}>
+        <button
+          aria-label="toggle menu"
+          onClick={() => toggleSidebar(setShowSidebar)}
+        >
           <TiThList fontSize={20} />
         </button>
       </nav>
